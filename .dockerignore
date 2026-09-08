@@ -1,0 +1,19 @@
+# Version control
+.git/
+.gitignore
+
+# CI configuration (not needed inside the image)
+.github/
+
+# Logs and temp artifacts
+logs/
+*.log
+/tmp/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
+
+# Documentation not needed inside the image
+README.md

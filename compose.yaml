@@ -1,0 +1,10 @@
+services:
+  devops-tool:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: devops-tool
+    container_name: devops-tool
+    # No command by default; supply one via:
+    #   docker compose run --rm devops-tool system-info
+    command: ["help"]
