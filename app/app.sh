@@ -35,6 +35,7 @@ EOF
 }
 
 cmd_system_info() {
+    if [[ true
     echo "======================================"
     echo " System Information"
     echo "======================================"
